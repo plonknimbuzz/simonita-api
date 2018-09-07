@@ -84,3 +84,37 @@ output:
 }
 
 ```
+
+### Media
+untuk mendapatkan jumlah media per tanggal
+
+| param | type | required | keterangan |
+|---|---|---|---|
+|dari   |string   | no   | rentang tanggal awal, format Y-m-d. Default= current date   |
+|ke   |string   | no   | rentang tanggal akhir, format Y-m-d. Default= current date   |
+
+
+contoh:
+
+`http://domain/simonita/api/json/media?dari=2018-09-01&ke=2018-09-07`
+
+output:
+```json
+{
+  "ok": 1,
+  "data": {
+    "bisnis.com": 172,
+    "kontan.co.id": 165,
+    "Liputan6.com": 142,
+    "Detik.Com": 141,
+    "Republika Online": 137,
+    "metrotvnews.com": 97,
+    "Merdeka.com": 96,
+    "tribunnews": 89,
+    "Okezone.com": 81,
+    "CNN": 80
+  }
+}
+```
+
+
