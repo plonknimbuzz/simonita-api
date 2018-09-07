@@ -35,11 +35,7 @@ output:
         "isi": "isi analisis",
         "tipe": "headline"
       },
-      {
-        "judul": "PPh Impor Perkuat Industri Nasional",
-        "isi": "isi analisis",
-        "tipe": "headline"
-      }
+      //...
     ],
     "resume": [
       {
@@ -49,13 +45,7 @@ output:
         "tanggal": "2018-09-07",
         "media": "Bisnis Indonesia"
       },
-      {
-        "kliping_id": 609531,
-        "judul": "Pemerintah Sisir Proyek Strategis",
-        "hal": "4",
-        "tanggal": "2018-09-07",
-        "media": "Bisnis Indonesia"
-      }
+      //...
     ]
   }
 }
