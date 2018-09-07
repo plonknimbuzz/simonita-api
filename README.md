@@ -50,3 +50,37 @@ output:
   }
 }
 ```
+
+### Sentimen
+untuk mendapatkan jumlah tone/sentimen pemberitaan per tanggal
+
+| param | type | required | keterangan |
+|---|---|---|---|
+|dari   |string   | no   | rentang tanggal awal, format Y-m-d. Default= current date   |
+|ke   |string   | no   | rentang tanggal akhir, format Y-m-d. Default= current date   |
+
+
+contoh:
+
+`http://domain/simonita/api/json/sentimen?dari=2018-09-01&ke=2018-09-07`
+
+output:
+```json
+{
+  "ok": 1,
+  "data": {
+    "2018-09-01": [
+      70,
+      22,
+      13
+    ],
+    "2018-09-02": [
+      40,
+      24,
+      4
+    ],
+    //...
+  }
+}
+
+```
