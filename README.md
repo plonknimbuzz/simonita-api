@@ -117,4 +117,33 @@ output:
 }
 ```
 
+### Topik
+untuk mendapatkan jumlah topik per tanggal
+
+| param | type | required | keterangan |
+|---|---|---|---|
+|dari   |string   | no   | rentang tanggal awal, format Y-m-d. Default= current date   |
+|ke   |string   | no   | rentang tanggal akhir, format Y-m-d. Default= current date   |
+
+
+contoh:
+
+`http://domain/simonita/api/json/topik?dari=2018-09-01&ke=2018-09-07`
+
+output:
+```json
+{
+  "ok": 0,
+  "Nilai Tukar Rupiah": 825,
+  "Pajak Impor": 185,
+  "Inflasi": 146,
+  "Neraca Perdagangan": 126,
+  "Utang": 99,
+  "Perekonomian Indonesia": 93,
+  "RAPBN 2019": 56,
+  "Anggaran Asian Games": 52,
+  "Utang Pemerintah": 42,
+  "Investment Grade": 38
+}
+```
 
