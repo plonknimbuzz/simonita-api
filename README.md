@@ -15,6 +15,7 @@ Untuk mendapatkan analisis beserta resume nya
 |tanggal   |string   | no   | tanggal analisis, format Y-m-d. Default= current date   |
 
 example:
+
 `http://domain/simonita/api/json/analisis?tipe=cetak&tanggal=2018-09-01`
 
 output:
